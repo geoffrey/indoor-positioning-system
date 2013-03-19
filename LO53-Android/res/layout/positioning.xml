@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    
+        
+    <ImageView
+        android:id="@+id/map_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_pin"/>
+    
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map" />
+    
+        
+    </RelativeLayout>
+   
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/settingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:onClick="settings" 
+            android:layout_margin="5dp"/>
+        
+        <ToggleButton
+            android:id="@+id/startLocatingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start Locating"
+            android:textOn="Start Locating"
+            android:textOff="Start Locating"
+            android:onClick="startLocatingToggleSwitch" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

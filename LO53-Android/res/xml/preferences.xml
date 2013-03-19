@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+   
+	<EditTextPreference android:key="hostname" android:title="Hostname"
+	     android:inputType="text" android:summary="Set the server IP here"
+	     android:persistent="true" android:defaultValue="192.168.0.1"/>
+	
+    <EditTextPreference android:key="port" android:title="Port"
+         android:inputType="number" android:summary="Set the server Port here"
+         android:persistent="true" android:defaultValue="8080"/>
+    
+
+    
+</PreferenceScreen>

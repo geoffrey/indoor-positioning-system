@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <Button
+        android:id="@+id/setupToolButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="SetUpTool"
+        android:onClick="setuptool" />
+
+    <Button
+        android:id="@+id/positioningButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Positioning"
+        android:onClick="positioning" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:onClick="settings" />
+
+</LinearLayout>

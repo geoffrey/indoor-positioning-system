@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    
+        
+    <ImageView
+        android:id="@+id/map_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map_pin"/>
+    
+    <ImageView
+        android:id="@+id/map"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/map" />
+    
+        
+    </RelativeLayout>
+   
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0" >
+
+        <Button
+            android:id="@+id/settingButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Settings"
+            android:onClick="settings" 
+            android:layout_margin="5dp"/>
+
+        <ToggleButton
+            android:id="@+id/setPointButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Point"
+            android:textOn="Set Point"
+            android:textOff="Set Point"
+            android:onClick="setPointToggleSwitch" />
+
+        <Button
+            android:id="@+id/measureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Measure" 
+            android:layout_margin="5dp"
+            android:onClick="measure"/>
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel" 
+            android:onClick="cancelActiveMode"
+            android:layout_margin="5dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

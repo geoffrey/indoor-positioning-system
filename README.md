@@ -1,6 +1,10 @@
 IndoorPositioningSystem
 =======================
 
+What I did in this project :
+
+Java servlet & Android app
+
 Content :
 
 1) C programm to install on every Access Points used for this system.
@@ -16,3 +20,5 @@ Once C programms are installed and the Tomcat server is configured and launched,
 2) Positioning mode, allow the user to ask the system to locate him on the map using a simple nearest-point algorithm using rssi values.
 
 For more information, please read the project report.
+
+
